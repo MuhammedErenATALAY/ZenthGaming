@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenthGaming | İşlemciler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="top-nav">
+        <div class="logo-section">
+            <img src="anasayfaresim/logo.png" alt="Logo" class="site-logo">
+            <div class="site-name">ZenthGaming</div>
+        </div>
+
+        <div class="header-content">
+            <div class="keyframe-bar">
+                <span>PROFESYONEL OYUNCU DONANIMLARI - 2026 SERİSİ — GÜVENİLİR TEKNOLOJİ, MAKSİMUM PERFORMANS — ZENTHGAMING</span>
+            </div>
+
+            <nav class="nav-links"
+                 style="display:flex; justify-content:space-between; align-items:center; padding:0 20px; height:55px;">
+
+                <a href="index.html"
+                   class="nav-left-item"
+                   style="font-weight:bold; display:flex; align-items:center; height:100%;">
+                    ANA SAYFA
+                </a>
+
+                <div class="cart-wrapper" onclick="alert('Sepetinizde ' + count + ' ürün var.')">
+                    <span class="cart-text">🛒</span>
+                    <div class="cart-icon-container">
+                        <span id="cart-count">0</span>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <h1 style="color: #007bff; margin-top: 50px; text-align: center; border-bottom: 2px solid #333; padding-bottom: 10px;"></h1>
+
+        <h2 class="cat-title">Intel Core i3 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i3-14100.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i3-14100</h3>
+                    <p class="monitor-price">4.850 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i3-13100F.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i3-13100F</h3>
+                    <p class="monitor-price">3.900 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i3-12100.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i3-12100</h3>
+                    <p class="monitor-price">3.450 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">Intel Core i5 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i5-14600K.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i5-14600K</h3>
+                    <p class="monitor-price">11.200 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i5-13400F.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i5-13400F</h3>
+                    <p class="monitor-price">7.800 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i5-12600K.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i5-12600K</h3>
+                    <p class="monitor-price">8.450 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">Intel Core i7 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i7-14700K.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i7-14700K</h3>
+                    <p class="monitor-price">15.900 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i7-13700KF.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i7-13700KF</h3>
+                    <p class="monitor-price">14.200 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i7-12700K.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i7-12700K</h3>
+                    <p class="monitor-price">11.800 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">Intel Core i9 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i9-14900KS.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i9-14900KS</h3>
+                    <p class="monitor-price">24.500 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i9-14900K.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i9-14900K</h3>
+                    <p class="monitor-price">21.900 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/Intel Core i9-13900K.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Intel Core i9-13900K</h3>
+                    <p class="monitor-price">19.400 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h1 style="color: #ff4500; margin-top: 70px; text-align: center; border-bottom: 2px solid #333; padding-bottom: 10px;">
+            AMD AM5 İŞLEMCİLER
+        </h1>
+
+        <h2 class="cat-title">AMD Ryzen 5 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 5 7600X.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 5 7600X</h3>
+                    <p class="monitor-price">8.200 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 5 7600.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 5 7600</h3>
+                    <p class="monitor-price">7.450 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 5 7500F.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 5 7500F</h3>
+                    <p class="monitor-price">6.200 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">AMD Ryzen 7 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 7 7800X3D.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 7 7800X3D</h3>
+                    <p class="monitor-price">16.800 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 7 7700X.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 7 7700X</h3>
+                    <p class="monitor-price">12.500 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 7 7700.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 7 7700</h3>
+                    <p class="monitor-price">10.900 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">AMD Ryzen 9 Serisi</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 9 7950X3D.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 9 7950X3D</h3>
+                    <p class="monitor-price">22.150 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 9 7950X.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 9 7950X</h3>
+                    <p class="monitor-price">19.800 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="islemci/AMD Ryzen 9 7900X.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AMD Ryzen 9 7900X</h3>
+                    <p class="monitor-price">16.400 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Hızlı Linkler</h4>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda & İletişim</a></li>
+                    <li><a href="markalar.html">Markalar</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section copyright">
+                <p>© 2026 ZenthGaming</p>
+            </div>
+
+            <div class="footer-section contact-links">
+                <h4>İLETİŞİM</h4>
+                <p>İletişim Bilgilerimiz:</p>
+                <p>Telefon : +90 5XX XXX XX XX</p>
+                <p>E-posta: info@zenthgaming.com</p>
+                <p>Instagram: @zenthgaming</p>
+                <p>YouTube: @zenthgaming</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let count = 0;
+        function sepeteEkle() {
+            count++;
+            document.getElementById('cart-count').innerText = count;
+        }
+    </script>
+
+</body>
+</html>

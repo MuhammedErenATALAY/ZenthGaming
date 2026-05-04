@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenthGaming | Monitörler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-nav">
+    <div class="logo-section">
+        <img src="anasayfaresim/logo.png" alt="Logo" class="site-logo">
+        <div class="site-name">ZenthGaming</div>
+    </div>
+
+    <div class="header-content">
+        <div class="keyframe-bar">
+            <span>PROFESYONEL OYUNCU DONANIMLARI - 2026 SERİSİ — GÜVENİLİR TEKNOLOJİ, MAKSİMUM PERFORMANS — ZENTHGAMING</span>
+        </div>
+
+        <nav class="nav-links"
+             style="display:flex; justify-content:space-between; align-items:center; padding:0 20px; height:55px;">
+
+            <a href="index.html"
+               class="nav-item-left"
+               style="font-weight:bold; display:flex; align-items:center; height:100%;">
+                ANA SAYFA
+            </a>
+
+            <div class="cart-wrapper"
+                 onclick="alert('Sepetinizde ' + count + ' ürün var.')"
+                 style="margin-right:10px; display:flex; align-items:center; height:100%;">
+
+                <span class="cart-text">🛒</span>
+
+                <div class="cart-icon-container">
+                    <span id="cart-count">0</span>
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+</header>
+    <main class="container">
+
+        <h2 class="cat-title">32 İnç QLED / QD-OLED Monitörler</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/SamsungOdyseyG8.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Samsung Odyssey G8 32"</h3>
+                    <p class="monitor-price">34.999 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/ASUSROGSwift PG32UCDM.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">ASUS ROG Swift PG32UCDM</h3>
+                    <p class="monitor-price">39.999 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/MSI MPG321URX QD-OLED.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">MSI MPG 321URX QD-OLED</h3>
+                    <p class="monitor-price">36.450 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/Alienware AW3225QF.png"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Alienware AW3225QF</h3>
+                    <p class="monitor-price">38.200 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/GigabyteAORUS FO32U2P.png"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Gigabyte AORUS FO32U2P</h3>
+                    <p class="monitor-price">35.999 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">27 İnç QLED / QD-OLED Monitör Önerileri</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/LGUltraGear 27GR95QE.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">LG UltraGear 27GR95QE</h3>
+                    <p class="monitor-price">22.499 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/ASUSROGSwift PG27AQDM.png"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">ASUS ROG Swift PG27AQDM</h3>
+                    <p class="monitor-price">24.500 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/MSI MAG 271QPX QD-OLED.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">MSI MAG 271QPX QD-OLED</h3>
+                    <p class="monitor-price">21.800 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/AOCAGONPRO AG276QZD.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Dell Alienware AW2725DF</h3>
+                    <p class="monitor-price">23.900 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/AOCAGONPRO AG276QZD.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">AOC AGON PRO AG276QZD</h3>
+                    <p class="monitor-price">20.400 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="cat-title">25 İnç QLED / QD-OLED Monitörler</h2>
+        <div class="product-grid">
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/ASUS ROG Swift Pro PG248QP.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">ASUS ROG Swift Pro PG248QP</h3>
+                    <p class="monitor-price">24.150 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/ZOWIE XL2566K 360Hz.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">ZOWIE XL2566K 360Hz</h3>
+                    <p class="monitor-price">19.200 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/Alienware AW2524H 500Hz.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Alienware AW2524H 500Hz</h3>
+                    <p class="monitor-price">22.800 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/MSI Oculux NXG253R.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">MSI Oculux NXG253R</h3>
+                    <p class="monitor-price">17.500 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+            <div class="monitor-card">
+                <div class="monitor-img-box"><img src="monitorresim/Acer Predator X25.jpg"></div>
+                <div class="monitor-details">
+                    <h3 class="monitor-name">Acer Predator X25</h3>
+                    <p class="monitor-price">18.900 TL</p>
+                    <button class="add-to-cart-btn" onclick="sepeteEkle()">SEPETE EKLE</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Hızlı Linkler</h4>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda & İletişim</a></li>
+                    <li><a href="markalar.html">Markalar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section copyright">
+                <p>© 2026 ZenthGaming</p>
+            </div>
+            <div class="footer-section contact-links">
+                <h4>İLETİŞİM</h4>
+                <p>İletişim Bilgilerimiz:</p>
+                <p>Telefon : +90 5XX XXX XX XX</p>
+                <p>E-posta: info@zenthgaming.com</p>
+                <p>Instagram: @zenthgaming</p>
+                <p>YouTube: @zenthgaming</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let count = 0;
+        function sepeteEkle() {
+            count++;
+            document.getElementById('cart-count').innerText = count;
+        }
+    </script>
+
+</body>
+</html>
+```
